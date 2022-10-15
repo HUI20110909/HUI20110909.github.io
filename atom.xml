@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://HUI20110909.github.io</id>
     <title>HUI</title>
-    <updated>2022-10-15T05:17:57.903Z</updated>
+    <updated>2022-10-15T05:21:15.907Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://HUI20110909.github.io"/>
     <link rel="self" href="https://HUI20110909.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://HUI20110909.github.io/images/avatar.png</logo>
     <icon>https://HUI20110909.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, HUI</rights>
+    <entry>
+        <title type="html"><![CDATA[Dism++-强大的 Windows 系统优化工具]]></title>
+        <id>https://HUI20110909.github.io/post/dism-qiang-da-de-windows-xi-tong-you-hua-gong-ju/</id>
+        <link href="https://HUI20110909.github.io/post/dism-qiang-da-de-windows-xi-tong-you-hua-gong-ju/">
+        </link>
+        <updated>2022-10-15T05:18:45.000Z</updated>
+        <content type="html"><![CDATA[<p>官网：https://www.chuyu.me/zh-Hans/</p>
+<p>在介绍 Dism++ 之前，我们先回想下，每次安装完系统后，都要对系统选项进行一些设置优化，好让电脑更适合我们的使用习惯，同时发挥其最佳性能。</p>
+<p>比如将 “此电脑、回收站” 放到桌面上、关闭一些耗费资源但又用不到的功能等。又或者对系统进行日常维护和保养，比如清理垃圾、管理备份与更新等。<br>
+而这些选项往往分布在不同的地方，有的更是隐藏较深，比如关闭 Windows Defender、家庭组等，就要深入组策略、服务中去查找，甚至手动修改注册表，很不方便！</p>
+<p>而 Dism++ 就把这些常用的设置集合了起来，把这一切都变得更加简单方便。本文就分享下如何使用 Dism++ 全方位管理优化我们的电脑。<br>
+Dism++ 是一款 Windows 系统管理优化工具，它解决了我们安装、维护系统的一大痛点问题——自定义设置和优化。相当于一个 “一站式” 管理优化工具集。<br>
+它把用户使用、调整频率较高的选项集合到一起，让我们可以使用它快速地完成电脑的自定义设置和优化，而不需要一层层地打开在不同位置的设置选项逐个调整，极大地方便了我们的操作。<br>
+工具箱中是一些系统辅助工具，如系统备份还原、账户管理、引导修复、映像互转等。<br>
+Dism++ 也许是最强的 Windows 管理优化工具（之一）了，纯粹干净，功能强大丰富，界面简洁无广告，而且只有几 MB 大小无需安装。<br>
+不仅可以帮我们快捷方便地自定义调整系统设置，还具备强大的系统维护功能，是一款不可多得的系统管理利器。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WinNTSetup-Windows安装工具]]></title>
         <id>https://HUI20110909.github.io/post/winntsetup/</id>
