@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://HUI20110909.github.io</id>
     <title>HUI</title>
-    <updated>2022-10-15T05:16:23.805Z</updated>
+    <updated>2022-10-15T05:17:57.903Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://HUI20110909.github.io"/>
     <link rel="self" href="https://HUI20110909.github.io/atom.xml"/>
@@ -18,14 +18,14 @@
         <updated>2022-10-15T05:08:08.000Z</updated>
         <content type="html"><![CDATA[<p>官网：http://wntsetup.ru/</p>
 <p>WinNTSetup一个软件，用于创建Windows操作系统的附加启动模块。该实用程序是一个备用安装程序，允许您在内部或外部硬盘的可用分区中以及在虚拟硬盘 （VHD） 和闪存驱动器上安装第二个操作系统。在这种情况下，不需要存在带有分发工具包的闪存驱动器或磁盘（但是，如有必要，您可以使用这些驱动器进行安装）<br>
-支持视窗 2k/XP/2003/2008/2012/视景/7/8.x x86/x64。<br>
+支持Windows 2000/XP/2003/2008/2012/Windows7/8.x x86/x64。<br>
 不需要安装（便携式版本）。<br>
 完全俄罗斯化的界面。<br>
 适用于最简约的 WinPE。<br>
 支持所有现有的 WIM 文件：WIM/SWM（高速/LZX/XPRESS 霍夫曼=Wimboot 压缩）。<br>
 支持未加密的 ESD 文件（低安全性管理软件压缩 WIM）。<br>
 支持无线引导选项。<br>
-支持适用于视窗 7 及更高版本的“视窗”。<br>
+支持适用于Windows 7 及更高版本的“Windows”。<br>
 支持将驱动程序集成到系统中。<br>
 灵活的预设设置。</p>
 <p>在程序的首次启动时，将需要加载其他ADK文件以进行进一步的工作，下载并进入程序的主窗口。<br>
