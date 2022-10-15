@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://HUI20110909.github.io</id>
     <title>HUI</title>
-    <updated>2022-10-15T04:04:25.813Z</updated>
+    <updated>2022-10-15T04:14:58.746Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://HUI20110909.github.io"/>
     <link rel="self" href="https://HUI20110909.github.io/atom.xml"/>
@@ -10,4 +10,48 @@
     <logo>https://HUI20110909.github.io/images/avatar.png</logo>
     <icon>https://HUI20110909.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, HUI</rights>
+    <entry>
+        <title type="html"><![CDATA[Ventoy-新一代多系统启动U盘解决方案]]></title>
+        <id>https://HUI20110909.github.io/post/ventoy-xin-yi-dai-duo-xi-tong-qi-dong-u-pan-jie-jue-fang-an/</id>
+        <link href="https://HUI20110909.github.io/post/ventoy-xin-yi-dai-duo-xi-tong-qi-dong-u-pan-jie-jue-fang-an/">
+        </link>
+        <updated>2022-10-15T04:06:39.000Z</updated>
+        <content type="html"><![CDATA[<p>单来说，Ventoy是一个制作可启动U盘的开源工具。<br>
+有了Ventoy你就无需反复地格式化U盘，你只需要把 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件直接拷贝到U盘里面就可以启动了，无需其他操作。<br>
+你可以一次性拷贝很多个不同类型的镜像文件，Ventoy 会在启动时显示一个菜单来供你进行选择</p>
+<p>Ventoy特点<br>
+100% 开源<br>
+使用简单<br>
+快速 (拷贝文件有多快就有多快)<br>
+可以安装在 U盘/本地硬盘/SSD/NVMe/SD卡等设备上<br>
+直接从 ISO/WIM/IMG/VHD(x)/EFI 文件启动，无需解开<br>
+支持浏览并启动本地硬盘上的 ISO/WIM/IMG/VHD(x)/EFI 文件<br>
+ISO/WIM/IMG/VHD(x)/EFI 文件在磁盘上无需连续<br>
+支持MBR和GPT分区格式<br>
+同时支持 x86 Legacy BIOS 以及 IA32/x86_64/ARM64/MIPS64 UEFI<br>
+UEFI 模式支持安全启动 (Secure Boot)<br>
+支持数据持久化<br>
+支持 Windows 系统的自动安装部署<br>
+支持 Linux 系统的自动安装部署<br>
+Windows/Linux 自动安装脚本中支持变量扩展<br>
+镜像分区支持 FAT32/exFAT/NTFS/UDF/XFS/Ext2(3)(4) 文件系统<br>
+支持超过4GB的 ISO 文件<br>
+支持菜单别名、菜单提示信息显示<br>
+支持启动密码保护<br>
+保留ISO原始的启动菜单风格(Legacy &amp; UEFI)<br>
+支持大部分常见操作系统, 已测试 1000+ 个ISO文件<br>
+不仅仅是能启动ISO文件，而是支持启动后完整的安装过程<br>
+菜单可以在列表模式和目录树模式之间随时切换<br>
+提出 &quot;Ventoy Compatible&quot; 概念<br>
+支持插件扩展，提供图形化插件配置器<br>
+Linux vDisk(vhd/vdi/raw...) 启动解决方案<br>
+支持向运行环境中注入文件<br>
+支持动态替换ISO文件中的原始启动配置文件<br>
+高度可定制化的主题风格和菜单<br>
+U盘硬件写保护开启时不影响基本功能<br>
+不影响U盘日常普通使用<br>
+版本升级时数据不会丢失<br>
+无需跟随操作系统升级而升级Ventoy</p>
+]]></content>
+    </entry>
 </feed>
