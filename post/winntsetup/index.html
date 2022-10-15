@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>WinNTSetup-Windows安装工具 | HUI</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://HUI20110909.github.io/favicon.ico?v=1665810744384">
+<link rel="stylesheet" href="https://HUI20110909.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="官网：http://wntsetup.ru/
+WinNTSetup一个软件，用于创建Windows操作系统的附加启动模块。该实用程序是一个备用安装程序，允许您在内部或外部硬盘的可用分区中以及在虚拟硬盘 （VHD） 和闪存驱动器上安装第二个操..." />
+    <meta name="keywords" content="数码" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://HUI20110909.github.io">
+        <img src="https://HUI20110909.github.io/images/avatar.png?v=1665810744384" class="site-logo">
+        <h1 class="site-title">HUI</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by HUI | <a class="rss" href="https://HUI20110909.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">WinNTSetup-Windows安装工具</h2>
+            <div class="post-date">2022-10-15</div>
+            
+            <div class="post-content" v-pre>
+              <p>官网：http://wntsetup.ru/</p>
+<p>WinNTSetup一个软件，用于创建Windows操作系统的附加启动模块。该实用程序是一个备用安装程序，允许您在内部或外部硬盘的可用分区中以及在虚拟硬盘 （VHD） 和闪存驱动器上安装第二个操作系统。在这种情况下，不需要存在带有分发工具包的闪存驱动器或磁盘（但是，如有必要，您可以使用这些驱动器进行安装）<br>
+支持视窗 2k/XP/2003/2008/2012/视景/7/8.x x86/x64。<br>
+不需要安装（便携式版本）。<br>
+完全俄罗斯化的界面。<br>
+适用于最简约的 WinPE。<br>
+支持所有现有的 WIM 文件：WIM/SWM（高速/LZX/XPRESS 霍夫曼=Wimboot 压缩）。<br>
+支持未加密的 ESD 文件（低安全性管理软件压缩 WIM）。<br>
+支持无线引导选项。<br>
+支持适用于视窗 7 及更高版本的“视窗”。<br>
+支持将驱动程序集成到系统中。<br>
+灵活的预设设置。</p>
+<p>在程序的首次启动时，将需要加载其他ADK文件以进行进一步的工作，下载并进入程序的主窗口。<br>
+指定 install.wim 文件的路径，该文件位于包含操作系统分发版的解压缩 ISO 映像的文件夹中。<br>
+指定引导扇区和引导管理器的磁盘分区。磁盘分区必须处于活动状态，为此，您需要转到Windows系统的“磁盘管理”和“使分区处于活动状态”。完成此操作后，必须完成 WinNTSetup 的所有操作，在相反的情况下，您将无法启动（在此步骤之后无法关闭或重新启动计算机）。<br>
+指定将安装 Windows 的分区（这可以是安装引导加载程序的同一分区）。按选择按钮旁边的“F”按钮，然后格式化所选部分。<br>
+指定包含驱动程序的文件夹（如有必要，您可以立即为特定硬件选择驱动程序）。<br>
+单击“安装”按钮，确保选中“查找所有版本的Windows并将其添加到启动菜单”和“安装后自动重新启动PC”框。<br>
+我们正在等待图像被解压缩。<br>
+通过从启动菜单中选择新安装的系统来重新启动计算机。<br>
+我们希望在首次发布后识别设备并创建帐户。<br>
+最好稍后使用 WPI 安装其他库和软件。<br>
+WinNTSetup 具有用于创建 VHD 的内置功能，VHD 是一个虚拟硬盘，你可以在其上安装第二个系统。此方法更可取，因为它比上述方法更容易、更安全，因为系统没有放在必须事先准备好的单独逻辑分区上。创建 VHD 分区并分配驱动器号。选择 VHD 磁盘作为驱动器安装（确保将 IST 磁盘引导到物理磁盘上的活动分区 - 可以通过“磁盘管理”使其处于活动状态）。</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://HUI20110909.github.io/tag/iBtHwtI7u/" class="tag">
+                    数码
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://HUI20110909.github.io/post/firpe/">
+                  <h3 class="post-title">
+                    FirPE-也许是最适合年轻人使用的第三方WinPE~
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
